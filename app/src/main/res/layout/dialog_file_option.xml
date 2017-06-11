@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/background_dialog"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/background_day"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="文件操作"
+        android:textColor="@color/black"
+        android:textSize="64px"
+        android:gravity="center"
+        />
+    <FrameLayout
+        android:background="#9e9e9e"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/rename"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="重命名"
+        android:textColor="@color/text_color_day"
+        android:textSize="64px"
+        android:gravity="center"
+        />
+    <FrameLayout
+        android:background="#9e9e9e"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:textSize="64px"
+        android:text="删除"
+        android:textColor="@color/text_color_day"
+        android:gravity="center"
+        />
+
+</LinearLayout>
